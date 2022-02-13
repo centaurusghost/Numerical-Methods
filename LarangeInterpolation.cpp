@@ -39,5 +39,6 @@ while(count!=val){
 result=result+NumDenum(x,point,count)/NumDenum(x,x[count],count)*y[count];
     count++;
 }
+    delete x; delete y;
 cout<<result<<endl;
 }
